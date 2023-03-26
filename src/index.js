@@ -96,6 +96,10 @@ function showWeather(response) {
 celsiusLink.classList.remove("active");
 fahrenheitLink.classList.add("active");
 
+
+let contentSection = document.querySelector("#contentSection");
+contentSection.classList.remove("hide");
+
 }
 
 function search(event) {
